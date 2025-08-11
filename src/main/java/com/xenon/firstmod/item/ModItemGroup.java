@@ -15,6 +15,7 @@ public class ModItemGroup {
             new Identifier(FirstMod.MOD_ID,"first_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.first_group")).
                     icon(()->new ItemStack(ModItems.WATER_ETHER)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.TEST);
                         entries.add(ModItems.WATER_ETHER);
                         entries.add(ModItems.FIRE_ETHER);
                         entries.add(ModBlocks.WATER_ETHER_BLOCK);
