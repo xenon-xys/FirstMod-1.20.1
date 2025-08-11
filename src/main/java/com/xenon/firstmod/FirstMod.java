@@ -1,7 +1,7 @@
 package com.xenon.firstmod;
 
 import com.xenon.firstmod.block.ModBlocks;
-import com.xenon.firstmod.item.ModItemGroup;
+import com.xenon.firstmod.item.ModItemGroups;
 import com.xenon.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -24,7 +24,8 @@ public class FirstMod implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
         ModItems.registerModItems();
-        ModItemGroup.registerModItemGroup();
+        ModItemGroups.registerModItemGroup();
+        ModItemGroups.registerGroups();
         ModBlocks.registerModBlocks();
 	}
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:fire_ether"
+    },
+    {
+      "item": "firstmod:ice_ether"
+    }
+  ],
+  "result": {
+    "item": "firstmod:water_ether"
+  }
+}
