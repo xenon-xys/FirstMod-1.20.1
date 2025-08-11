@@ -1,0 +1,8 @@
+{
+  "item.firstmod.test": "测试",
+  "item.firstmod.water_ether": "水元素",
+  "item.firstmod.fire_ether": "火元素",
+  "itemGroup.first_group": "第一个模组物品栏",
+  "block.firstmod.water_ether_block": "水元素方块",
+  "block.firstmod.fire_ether_block": "火元素方块"
+}

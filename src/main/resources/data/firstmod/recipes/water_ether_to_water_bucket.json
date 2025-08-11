@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "firstmod:water_ether"
+    }
+  ],
+  "result": {
+    "item": "minecraft:water_bucket"
+  }
+}

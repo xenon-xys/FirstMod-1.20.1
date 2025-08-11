@@ -1,0 +1,8 @@
+{
+  "item.firstmod.test": "TEST",
+  "item.firstmod.water_ether": "WATER ETHER",
+  "item.firstmod.fire_ether": "FIRE ETHER",
+  "itemGroup.first_group": "FIRST GROUP",
+  "block.firstmod.water_ether_block": "WATER ETHER BLOCK",
+  "block.firstmod.fire_ether_block": "FIRE ETHER BLOCK"
+}

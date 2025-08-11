@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:fire_ether"
+    }
+  },
+  "result": {
+    "item": "firstmod:fire_ether_block"
+  }
+}

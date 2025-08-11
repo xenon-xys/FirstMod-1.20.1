@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:water_ether"
+    }
+  },
+  "result": {
+    "item": "firstmod:water_ether_block"
+  }
+}

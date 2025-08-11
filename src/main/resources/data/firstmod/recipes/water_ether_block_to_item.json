@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "firstmod:water_ether_block"
+    }
+  ],
+  "result": {
+    "item": "firstmod:water_ether",
+    "count": 9
+  }
+}
