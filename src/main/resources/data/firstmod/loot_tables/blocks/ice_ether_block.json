@@ -2,7 +2,6 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
@@ -11,7 +10,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "firstmod:ice_ether_block"
+          "name": "firstmod:ice_ether",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 9
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0

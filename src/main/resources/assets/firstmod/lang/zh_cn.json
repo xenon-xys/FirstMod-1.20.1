@@ -7,5 +7,8 @@
   "block.firstmod.water_ether_block": "水元素方块",
   "block.firstmod.fire_ether_block": "火元素方块",
   "block.firstmod.ice_ether_block": "冰元素方块",
+  "item.firstmod.water_ether_diamond": "水元素钻石",
+  "item.firstmod.fire_ether_diamond": "火元素钻石",
+  "item.firstmod.ice_ether_diamond": "冰元素钻石",
   "itemGroup.ether_group": "元素"
 }

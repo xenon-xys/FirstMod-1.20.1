@@ -18,7 +18,7 @@ public class ModBlocks {
     public static final Block FIRE_ETHER_BLOCK = registerBlocks("fire_ether_block",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block ICE_ETHER_BLOCK = registerBlocks("ice_ether_block",
-            new Block(AbstractBlock.Settings.create().strength(0.5f,0.5f)));
+            new Block(AbstractBlock.Settings.create().strength(0.5f,0.5f).requiresTool()));
 //    public static final Block WATER_ETHER_BLOCK = registerBlocks("water_ether_block",
 //            new Block(FabricBlockSettings.create().strength(0.2f,0.2f)));
 

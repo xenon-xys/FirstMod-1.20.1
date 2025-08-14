@@ -33,15 +33,18 @@ public class ModItemGroups {
                             entries.add(ModBlocks.WATER_ETHER_BLOCK);
                             entries.add(ModBlocks.FIRE_ETHER_BLOCK);
                             entries.add(ModBlocks.ICE_ETHER_BLOCK);
+                            entries.add(ModItems.WATER_ETHER_DIAMOND);
+                            entries.add(ModItems.FIRE_ETHER_DIAMOND);
+                            entries.add(ModItems.ICE_ETHER_DIAMOND);
                         }).build());
     }
 
-    public static final ItemGroup FIRST_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(FirstMod.MOD_ID,"first_group"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.first_group")).
-                    icon(()->new ItemStack(ModItems.TEST)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.TEST);
-                    }).build());
+//    public static final ItemGroup FIRST_GROUP = Registry.register(Registries.ITEM_GROUP,
+//            new Identifier(FirstMod.MOD_ID,"first_group"),
+//            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.first_group")).
+//                    icon(()->new ItemStack(ModItems.TEST)).entries((displayContext, entries) -> {
+//                        entries.add(ModItems.TEST);
+//                    }).build());
     public static void registerModItemGroup(){
 
     }
