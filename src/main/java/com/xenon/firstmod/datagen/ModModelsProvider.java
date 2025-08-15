@@ -29,5 +29,7 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WATER_ETHER_DIAMOND,Models.GENERATED);
         itemModelGenerator.register(ModItems.FIRE_ETHER_DIAMOND,Models.GENERATED);
         itemModelGenerator.register(ModItems.ICE_ETHER_DIAMOND,Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_APPLE,Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIRE_COAL,Models.GENERATED);
     }
 }

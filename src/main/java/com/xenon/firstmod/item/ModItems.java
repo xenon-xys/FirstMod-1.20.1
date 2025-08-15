@@ -20,6 +20,9 @@ public class ModItems {
     public static final Item FIRE_ETHER_DIAMOND = registerItem("fire_ether_diamond",new Item(new FabricItemSettings()));
     public static final Item ICE_ETHER_DIAMOND = registerItem("ice_ether_diamond",new Item(new FabricItemSettings()));
 
+    public static final Item FIRE_COAL = registerItem("fire_coal",new Item((new Item.Settings())));
+    public static final Item DIAMOND_APPLE = registerItem("diamond_apple",new Item(new Item.Settings().food(ModFoodComponents.DIAMOND_APPLE)));
+
     private static void addItemsToItemGroup1(FabricItemGroupEntries fabricItemGroupEntries){
         fabricItemGroupEntries.add(TEST);
     }
@@ -30,7 +33,11 @@ public class ModItems {
         fabricItemGroupEntries.add(WATER_ETHER_DIAMOND);
         fabricItemGroupEntries.add(FIRE_ETHER_DIAMOND);
         fabricItemGroupEntries.add(ICE_ETHER_DIAMOND);
+        fabricItemGroupEntries.add(FIRE_COAL);
 
+    }
+    private static void addItemsToItemGroup3(FabricItemGroupEntries fabricItemGroupEntries){
+        fabricItemGroupEntries.add(DIAMOND_APPLE);
     }
 
     private static Item registerItem(String name,Item item){
@@ -40,6 +47,7 @@ public class ModItems {
 
     public static void registerModItems(){
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToItemGroup1);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToItemGroup2); //use this
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToItemGroup2);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToItemGroup3);//use this
     }
 }

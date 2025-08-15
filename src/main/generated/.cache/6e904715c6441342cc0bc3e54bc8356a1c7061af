@@ -1,12 +1,14 @@
-// 1.20.1	2025-08-14T22:40:30.0907984	FirstMod/Model Definitions
+// 1.20.1	2025-08-15T00:52:41.3861377	FirstMod/Model Definitions
 e04e34e9e947fef140368918046ca34e7465a632 assets\firstmod\models\item\fire_ether.json
 f30b0d635e8168685bf5fb5e21a2944aefbc7e56 assets\firstmod\blockstates\water_ether_block.json
 5b068b2d4719cf5af5ec683f014de69aeffe6477 assets\firstmod\models\block\water_ether_block.json
 a1a63d51fe25b02eb60f9ffdc3de262b3f74afd7 assets\firstmod\blockstates\ice_ether_block.json
 34441996f7d4844e606736ff7789a5e45b18a390 assets\firstmod\models\item\water_ether_diamond.json
 762e52e4f5f9d3ca6cd35e26e5c71ec7d8631cc8 assets\firstmod\models\item\fire_ether_block.json
+1086814b1ee5dbdda1c2ebe81d537e0aa31b5c77 assets\firstmod\models\item\fire_coal.json
 abc812c7b1aab040428fb0d544a487a612f5e2e3 assets\firstmod\blockstates\fire_ether_block.json
 3d2dc0123b951f99c5abe9e1cf389ea74c62d068 assets\firstmod\models\item\ice_ether_diamond.json
+40955402751c4f575828527d3bca6ae4a2ea97e0 assets\firstmod\models\item\diamond_apple.json
 4aa0a7b2bd3eab98ba4d3a4c4c8b4d6885cc7044 assets\firstmod\models\item\ice_ether_block.json
 e9ba66f2fc0921e96846e95afc00fef36956254b assets\firstmod\models\block\fire_ether_block.json
 5b677ac596d93c943a6f6c3a35dc86effd28927f assets\firstmod\models\item\fire_ether_diamond.json

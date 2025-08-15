@@ -2,6 +2,8 @@
   "block.firstmod.fire_ether_block": "Fire Ether Block",
   "block.firstmod.ice_ether_block": "Ice Ether Block",
   "block.firstmod.water_ether_block": "Water Ether Block",
+  "item.firstmod.diamond_apple": "Diamond Apple",
+  "item.firstmod.fire_coal": "Fire Coal",
   "item.firstmod.fire_ether": "Fire Ether",
   "item.firstmod.fire_ether_diamond": "Fire Ether Diamond",
   "item.firstmod.ice_ether": "Ice Ether",
@@ -9,5 +11,6 @@
   "item.firstmod.test": "Test",
   "item.firstmod.water_ether": "Water Ether",
   "item.firstmod.water_ether_diamond": "Water Ether Diamond",
-  "itemGroup.ether_group": "Ether Group"
+  "itemGroup.ether_group": "Ether Group",
+  "itemGroup.mod_food_group": "Mod Food Group"
 }

@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final RegistryKey<ItemGroup> ETHER_GROUP = register("ether_group");
+    public static final RegistryKey<ItemGroup> MOD_FOOD_GROUP = register(("mod_food_group"));
 
     public static RegistryKey<ItemGroup> register(String id){
         return RegistryKey.of(RegistryKeys.ITEM_GROUP,new Identifier(id));
@@ -36,8 +37,19 @@ public class ModItemGroups {
                             entries.add(ModItems.WATER_ETHER_DIAMOND);
                             entries.add(ModItems.FIRE_ETHER_DIAMOND);
                             entries.add(ModItems.ICE_ETHER_DIAMOND);
+                            entries.add(ModItems.FIRE_COAL);
+                        }).build());
+        Registry.register(
+                Registries.ITEM_GROUP,
+                MOD_FOOD_GROUP,
+                ItemGroup.create(ItemGroup.Row.TOP, 8)
+                        .displayName(Text.translatable("itemGroup.mod_food_group"))
+                        .icon(()->new ItemStack(ModItems.DIAMOND_APPLE))
+                        .entries((displayContext, entries) -> {
+                            entries.add(ModItems.DIAMOND_APPLE);
                         }).build());
     }
+
 
 //    public static final ItemGroup FIRST_GROUP = Registry.register(Registries.ITEM_GROUP,
 //            new Identifier(FirstMod.MOD_ID,"first_group"),
