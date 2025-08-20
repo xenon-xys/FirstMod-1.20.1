@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:water_ether_block",
+    "firstmod:fire_ether_block",
+    "firstmod:ice_ether_block"
+  ]
+}
