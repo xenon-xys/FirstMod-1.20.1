@@ -1,13 +1,15 @@
-// 1.20.1	2025-08-15T00:52:41.3831385	FirstMod/Recipes
+// 1.20.1	2025-08-20T19:45:38.9553382	FirstMod/Recipes
 4957ce60f8eafefd855628250ad390c70346dbac data\firstmod\recipes\water_ether_block.json
 b7bee41a1ffe314ca70bc1c30cecb8edda9f5c77 data\firstmod\recipes\ice_ether_block.json
 bbc9fe1d042194c0e2d1c8638a37293bc017fb00 data\firstmod\recipes\ice_ether.json
 f24a457a81c1f52b18c2fc0df4750a34369ac8d9 data\firstmod\advancements\recipes\misc\water_ether.json
 f5d98d8e8ced70cfd726eb5a303185ae6641ff22 data\firstmod\advancements\recipes\building_blocks\fire_ether_block.json
+426956f98a0ded00760df80bf8fe378c0b311bc9 data\firstmod\advancements\recipes\misc\ore_block_test.json
 fa3d9c3a53580eff3126bff91278c9e1e6f8ada8 data\firstmod\advancements\recipes\building_blocks\ice_ether_block.json
 7613f256e4fe839cab16292ca17a5aa56c12e6b8 data\firstmod\advancements\recipes\misc\fire_ether.json
 2bb865e3d995260aa7ed42dd7c98027772855437 data\firstmod\advancements\recipes\building_blocks\water_ether_block.json
 e7f976660cb4a2d3adca20d2d36a6fd8ab26c2c7 data\firstmod\recipes\fire_ether.json
 de35cd0f6ca7a2213db1b8fa007929e58556399f data\firstmod\advancements\recipes\misc\ice_ether.json
+b430e1be4466d33eab875f2a36e46220753acb88 data\firstmod\recipes\ore_block_test.json
 566f7cb7faf7075c2ff8077ce7ef5bb5603d0290 data\firstmod\recipes\fire_ether_block.json
 3c801ed497d4bb63ddec48c4a74065b50b5711d9 data\firstmod\recipes\water_ether.json

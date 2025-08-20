@@ -1,3 +1,5 @@
-// 1.20.1	2025-08-15T00:52:41.3841388	FirstMod/Tags for minecraft:block
-9efa56f1d222a6daa00ec2562ffc403c52125eba data\minecraft\tags\blocks\needs_stone_tool.json
+// 1.20.1	2025-08-20T19:45:38.9567232	FirstMod/Tags for minecraft:block
+0653f3e4f152f101b80f384e3e61742bd31bcc33 data\firstmod\tags\blocks\ore_block.json
+9efa56f1d222a6daa00ec2562ffc403c52125eba data\firstmod\tags\blocks\ether_block.json
 9efa56f1d222a6daa00ec2562ffc403c52125eba data\minecraft\tags\blocks\mineable\pickaxe.json
+9efa56f1d222a6daa00ec2562ffc403c52125eba data\minecraft\tags\blocks\needs_stone_tool.json

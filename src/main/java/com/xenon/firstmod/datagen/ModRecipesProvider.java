@@ -3,6 +3,8 @@ package com.xenon.firstmod.datagen;
 import com.xenon.firstmod.FirstMod;
 import com.xenon.firstmod.block.ModBlocks;
 import com.xenon.firstmod.item.ModItems;
+import com.xenon.firstmod.tag.ModBlockTags;
+import com.xenon.firstmod.tag.ModItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
@@ -31,5 +33,13 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.ICE_ETHER_BLOCK);
         //ShapedRecipeJsonBuilder
         //ShapelessRecipeJsonBuilder
+        //offerSmelting
+        //offerBlasting
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.TEST,1)
+                .input(ModItems.FIRE_COAL)
+                .input(ModItemTags.ORE_BLOCK)
+                .criterion(hasItem(ModItems.FIRE_COAL),conditionsFromTag(ModItemTags.ORE_BLOCK))
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID,"ore_block_test"));
+
     }
 }
